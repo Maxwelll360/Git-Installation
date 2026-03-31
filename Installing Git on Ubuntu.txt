@@ -1,0 +1,31 @@
+***********Installing Git on Ubuntu**************
+
+**********Download Git**********
+sudo apt update
+sudo apt install git
+
+*********Configuring and settings**********
+git config --global user.name "Your github name"
+git config --global user.email "Your github email"
+
+*********Check and confirm your settings*********
+git config --list
+
+********Making a repository*********
+Here are the steps to get your project from GitHub to your computer:
+
+1. Create the Repository on GitHub
+Log in to GitHub.
+Click the + icon in the top right and select New repository.
+Give it a Repository name (e.g., my-cool-project).
+Choose Public or Private.
+Check Add a README file (this makes cloning easier).
+Click Create repository.
+
+2. Copy the Repo URL
+On your new repository’s main page, click the green <> Code button.
+Make sure HTTPS is selected and copy the URL (looks like https://github.com).
+
+3. Clone to Your Local Machine
+Open your Terminal (Mac/Linux) or Command Prompt/Git Bash (Windows).
+Navigate to the folder where you want the project to live
